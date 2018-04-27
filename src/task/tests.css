@@ -1,0 +1,45 @@
+.Test{
+    padding: 2% 5%;
+    line-height: 35px;
+}
+.buttonn{
+    visibility: hidden;
+    }
+.radioBut{    
+    appearance: none;
+    top: 5.33333px;
+    left:30px;
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    border: 3px solid #fa7735;
+    margin-right: 2.4rem;
+    outline: none;
+    position: relative;
+    border-radius: 50%;
+}
+.radioBut:checked {
+    background: #fa7735;
+    border-width: 0px;
+}
+
+.butClass{
+    border: 3px solid #fa7735;
+    border-radius: 30px;
+    background: #fa7735;
+    padding: 0px 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: 10%;
+    margin-left:45%;
+
+}
+.butClass:hover{
+    background: #fff;
+    border: 3px solid #fa7735;
+    color: #fa7735;   
+}
+.butClass:focus{
+    outline: none;
+
+}
