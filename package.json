@@ -39,5 +39,6 @@
     "babel-cli": "^6.26.0",
     "webpack-dev-server": "2.9.4",
     "webpack": "3.8.1"
-  }
+  },
+  "proxy": "http://localhost:3001"
 }
