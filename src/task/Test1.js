@@ -21,7 +21,7 @@ export class Test1 extends Component {
 
         return this.props.tests.map(el => (
             <div onFocus={this.getAnswers.bind(this)}>
-                Вопрос {el.id}: {el.question} <br />
+                Вопрос {el.testId}: {el.question} <br />
                 <input id="var1" type="radio" name={el.id} className="radioBut" value={el.rightAnsw} /> {el.answ1}<br />
                 <input id="var2" type="radio" name={el.id} className="radioBut" value={el.rightAnsw} /> {el.answ2}<br />
                 <input id="var3" type="radio" name={el.id} className="radioBut" value={el.rightAnsw} /> {el.answ3}<br />

@@ -1,6 +1,6 @@
 export default[
     {
-        id: 1,
+        testId: 1,
         chapter: 1,
         question: "some question, who cares",
         answ1: "example one",
@@ -10,7 +10,7 @@ export default[
         rightAnsw: "var4"
     },
     {
-        id: 2,
+        testId: 2,
         chapter: 1,
         question: "another question, who cares",
         answ1: "example one",
@@ -20,7 +20,7 @@ export default[
         rightAnsw: "var2"
     },
     {
-        id: 3,
+        testId: 3,
         chapter: 1,
         question: "question just for fun, who cares",
         answ1: "example one",

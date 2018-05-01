@@ -1,8 +1,0 @@
-{"apiPrefix": "http://localhost:8090",
-    "serverPort": "8090",
-    "db":{
-        "name": "diplom_db",
-        "host": "localhost",
-        "port": 45218
-    }
-}
